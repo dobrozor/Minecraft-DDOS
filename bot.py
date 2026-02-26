@@ -34,10 +34,10 @@ class BotApp:
         input_frame = tk.Frame(root, bg=BG_COLOR)
         input_frame.pack(padx=20, fill="x")
 
-        self.create_label_entry(input_frame, "Адрес сервера (IP:PORT):", "entry_address", "dobrozor.aternos.me:19807")
+        self.create_label_entry(input_frame, "Адрес сервера (IP:PORT):", "entry_address", "myserver.aternos.me:25565")
         self.create_label_entry(input_frame, "Версия игры (напр. 1.21.1):", "entry_version", "1.21.1")
-        self.create_label_entry(input_frame, "Никнейм (префикс):", "entry_nick", "dobrozor")
-        self.create_label_entry(input_frame, "Текст сообщения:", "entry_msg", "Стресс-тест: привет!")
+        self.create_label_entry(input_frame, "Никнейм (префикс):", "entry_nick", "MasterDDos")
+        self.create_label_entry(input_frame, "Текст сообщения:", "entry_msg", "Это стресс тест, бич!")
 
         # Чекбокс
         self.var_random = tk.BooleanVar(value=True)
